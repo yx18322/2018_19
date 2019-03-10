@@ -136,13 +136,13 @@ submission.qquad()
 seven_segment(b)
 
 print("test2")
-#submission.section("Test 2")
+submission.section("Test 2")
 
 test=[1,1,1,1,1,1,1,-1,-1,-1,-1]
 
 seven_segment(test)
 
-#submission.seven_segment(test)
+submission.seven_segment(test)
 flag_=0
 while (flag_ < 1):
     a_=energy(test=test2,weight_matrix=weight_matrix)
